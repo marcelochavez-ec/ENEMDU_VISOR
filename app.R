@@ -6,11 +6,9 @@ library(tidyverse)
 library(openxlsx)
 library(shinyWidgets)
 library(fontawesome)
+# setwd("D:/DATA_SCIENCE_ENDI/APPS/ENEMDU2")
 library(rsconnect)
 rsconnect::writeManifest(appPrimaryDoc = "app.R")
-
-
-# setwd("D:/DATA_SCIENCE_ENDI/APPS/ENEMDU2")
 
 # Paleta de colores
 paleta_pastel <- c("#9B59B6",  # Violeta fuerte (púrpura)
