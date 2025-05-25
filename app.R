@@ -6,7 +6,6 @@ library(tidyverse)
 library(openxlsx)
 library(shinyWidgets)
 library(fontawesome)
-# setwd("D:/DATA_SCIENCE_ENDI/APPS/ENEMDU2")
 library(rsconnect)
 rsconnect::writeManifest(appPrimaryDoc = "app.R")
 
