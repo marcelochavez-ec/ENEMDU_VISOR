@@ -122,8 +122,6 @@ df_enemdu <- df_enemdu %>%
 #                                   UI
 # ******************************************************************************
 
-
-# UI
 ui <- dashboardPage(skin = "purple",
                     dashboardHeader(title = "ENEMDU Trimestral"),
                     dashboardSidebar(
@@ -246,7 +244,6 @@ ui <- dashboardPage(skin = "purple",
 #                                   SEVER
 # ******************************************************************************
 
-# Server
 server <- function(input, output, session) {
   
   data_filtrada <- reactive({
